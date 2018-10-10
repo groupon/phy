@@ -1,0 +1,10 @@
+{
+  "@grpn/generator-js": {
+    "pkg": {
+      "scripts": {
+        "lint": "eslint --ext=mjs,js lib test preact",
+        "test": "nyc mocha"
+      }
+    }
+  }
+}

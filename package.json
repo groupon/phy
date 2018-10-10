@@ -1,0 +1,67 @@
+{
+  "name": "phy",
+  "version": "3.0.0",
+  "description": "Phy is a set of minimalist hyperscript helpers for Preact",
+  "license": "BSD-3-Clause",
+  "main": "lib/phy.js",
+  "homepage": "https://github.com/groupon/phy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/groupon/phy"
+  },
+  "bugs": {
+    "url": "https://github.com/groupon/phy/issues"
+  },
+  "scripts": {
+    "pretest": "eslint --ext=mjs,js lib test preact",
+    "test": "nyc mocha",
+    "posttest": "nlm verify"
+  },
+  "engines": {
+    "yarn": "0.0.0",
+    "npm": "^6.0.0"
+  },
+  "nlm": {
+    "license": {
+      "files": [
+        "lib"
+      ]
+    }
+  },
+  "nyc": {
+    "check-coverage": true,
+    "lines": 100,
+    "branches": 100,
+    "functions": 100,
+    "statements": 100
+  },
+  "dependencies": {
+    "preact": "^8.3.1"
+  },
+  "devDependencies": {
+    "assertive": "^2.1.0",
+    "eslint": "^4.7.1",
+    "eslint-config-groupon": "^6.0.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-mocha": "^4.12.1",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-prettier": "^2.2.0",
+    "mocha": "^5.2.0",
+    "nlm": "^3.3.1",
+    "nyc": "^11.4.1",
+    "preact-render-to-string": "^3.7.0",
+    "prettier": "^1.6.1"
+  },
+  "author": {
+    "name": "David Bushong",
+    "email": "dbushong@groupon.com"
+  },
+  "files": [
+    "*.js",
+    "lib",
+    "preact"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
