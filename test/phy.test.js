@@ -5,10 +5,18 @@ const assert = require('assertive');
 const h = require('../');
 const render = require('preact-render-to-string');
 
+const { h: h2, Component } = require('../');
+
 function Comp(props) {
   const attrs = Object.assign({}, props);
   delete attrs.children;
   return h('span', attrs, props.children);
+}
+
+class Comp2 extends Component {
+  render() {
+    return h2('span', 'hooray');
+  }
 }
 
 const tests = [
@@ -77,6 +85,7 @@ const tests = [
     h(Comp, { alt: 'meow' }, h('b')),
     '<span alt="meow"><b></b></span>',
   ],
+  ['Component passthru', h2(Comp2), '<span>hooray</span>'],
 ];
 
 describe('phy', () => {

@@ -14,6 +14,20 @@ module.exports = function SomeComponent() {
 }
 ```
 
+or, if you need access to other things from Preact, `Component` and `render`
+are passed thru for your convenience:
+
+```js
+const { h, Component } = require('phy');
+
+class SomeComponent extends Component {
+  render() {
+    return h('#foo', h('span.bar', 'whee!'));
+  }
+}
+module.exports = SomeComponent;
+```
+
 ## Optional Tag Helpers
 
 At the cost of a modestly larger import and slight function call overhead,
