@@ -3,7 +3,7 @@
 const assert = require('assertive');
 const render = require('preact-render-to-string');
 
-const cjsTags = require('../lib/tags');
+const cjsTags = require('../tags');
 
 const cjsH = cjsTags.h;
 const p = cjsTags.p;

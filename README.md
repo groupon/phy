@@ -24,7 +24,7 @@ you can also use a set of named tag function helpers for terser syntax.
 
 ```js
 // h() is passed through as an export so you don't need to require preact
-const { h, span, div } = require('phy/preact/tags');
+const { h, span, div } = require('phy/tags');
 
 module.exports = function SomeComponent() {
   return div('#foo', [span(['kittens']), h(SomeOtherComponent)]);
