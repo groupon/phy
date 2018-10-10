@@ -13,7 +13,7 @@
     "url": "https://github.com/groupon/phy/issues"
   },
   "scripts": {
-    "pretest": "eslint --ext=mjs,js lib test preact",
+    "pretest": "eslint lib test preact",
     "test": "nyc mocha",
     "posttest": "nlm verify"
   },
