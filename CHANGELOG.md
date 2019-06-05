@@ -1,3 +1,9 @@
+### 3.1.1
+
+* chore(deps): bump js-yaml from 3.12.0 to 3.13.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#4](https://github.com/groupon/phy/pull/4)
+  - [`75f5fc9`](https://github.com/groupon/phy/commit/75f5fc9c5eab7c086c0cb729acaa40f329b55d17) **chore:** bump js-yaml from 3.12.0 to 3.13.1
+
+
 ### 3.1.0
 
 * passthru Component and render from preact - **[@dbushong](https://github.com/dbushong)** [#2](https://github.com/groupon/phy/pull/2)
