@@ -1,3 +1,10 @@
+### 3.1.2
+
+* audit fixes - **[@dbushong](https://github.com/dbushong)** [#5](https://github.com/groupon/phy/pull/5)
+  - [`e2334d6`](https://github.com/groupon/phy/commit/e2334d664130a5c256fb815757725e50ff374e6a) **chore:** npm audit fix
+  - [`c4d30ef`](https://github.com/groupon/phy/commit/c4d30efd39996dddbdd795cf932a68883ed98347) **chore:** npm audit fix --force
+
+
 ### 3.1.1
 
 * chore(deps): bump js-yaml from 3.12.0 to 3.13.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#4](https://github.com/groupon/phy/pull/4)
