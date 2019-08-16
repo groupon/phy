@@ -47,7 +47,7 @@
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-prettier": "^2.2.0",
     "mocha": "^5.2.0",
-    "nlm": "^3.3.1",
+    "nlm": "^3.6.2",
     "nyc": "^11.4.1",
     "preact-render-to-string": "^3.7.0",
     "prettier": "^1.6.1"
