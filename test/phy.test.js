@@ -3,6 +3,7 @@
 const assert = require('assertive');
 
 const h = require('../');
+const { Fragment } = require('preact');
 const render = require('preact-render-to-string');
 
 const { h: h2, Component } = require('../');
@@ -86,6 +87,12 @@ const tests = [
     '<span alt="meow"><b></b></span>',
   ],
   ['Component passthru', h2(Comp2), '<span>hooray</span>'],
+  ['Fragment basic usage', h(Fragment, 'kitten'), 'kitten'],
+  [
+    'Fragment complex usage',
+    h('litter-box', {}, [h(Fragment, {}, ['kitten', h('toy', 'mouse')])]),
+    '<litter-box>kitten<toy>mouse</toy></litter-box>',
+  ],
 ];
 
 describe('phy', () => {
