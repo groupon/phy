@@ -1,3 +1,20 @@
+### 4.0.0
+
+#### Breaking Changes
+
+Forces preact10
+
+*See: [`aeb93f0`](https://github.com/groupon/phy/commit/aeb93f0e32a5fbd96265e805b1104c5164409eb2)*
+
+#### Commits
+
+* preact10 support - **[@aotarola](https://github.com/aotarola)** [#6](https://github.com/groupon/phy/pull/6)
+  - [`b16c9b9`](https://github.com/groupon/phy/commit/b16c9b9cc0d2b18d45e2a2561cea0dc7201040e3) **fix:** audit issue
+  - [`aeb93f0`](https://github.com/groupon/phy/commit/aeb93f0e32a5fbd96265e805b1104c5164409eb2) **feat:** adds support for preact10
+  - [`85e1eb0`](https://github.com/groupon/phy/commit/85e1eb086f8112303dcdfa01038663d732b57666) **refactor:** better heuristic for VNode detection
+  - [`a18689f`](https://github.com/groupon/phy/commit/a18689f3d562f1b38c92cdbc7f8a681b3b564658) **refactor:** clearer variable name
+
+
 ### 3.1.2
 
 * audit fixes - **[@dbushong](https://github.com/dbushong)** [#5](https://github.com/groupon/phy/pull/5)
