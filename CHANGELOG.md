@@ -1,3 +1,10 @@
+### 4.0.1
+
+* add type checking & declarations - **[@dbushong](https://github.com/dbushong)** [#7](https://github.com/groupon/phy/pull/7)
+  - [`f77df0a`](https://github.com/groupon/phy/commit/f77df0a6fae8683479f9d10247b1020453af270c) **chore:** upgrade pkg details
+  - [`403b571`](https://github.com/groupon/phy/commit/403b5711157ebbb7e78a73d46a0c7d7a9d5e89cb) **refactor:** add typedefs and make type-safe
+
+
 ### 4.0.0
 
 #### Breaking Changes
