@@ -34,12 +34,12 @@ const tests = [
   [
     'id, className attr',
     h('#bar', { className: 'yadda' }),
-    '<div class="yadda" id="bar"></div>',
+    '<div id="bar" class="yadda"></div>',
   ],
   [
     'id, multiple classes, class attribute',
     h('.foo.bar#baz', { class: 'garply quux' }),
-    '<div class="garply quux foo bar" id="baz"></div>',
+    '<div id="baz" class="garply quux foo bar"></div>',
   ],
   ['tag, string kids', h('div', 'kittens'), '<div>kittens</div>'],
   [
