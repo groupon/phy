@@ -2,7 +2,7 @@
 
 const assert = require('assertive');
 
-const h = require('../');
+const { h, isVNode } = require('../');
 const { Fragment } = require('preact');
 const render = require('preact-render-to-string');
 
@@ -96,9 +96,19 @@ const tests = [
 ];
 
 describe('phy', () => {
-  tests.forEach(test => {
-    it(test[0], () => {
-      assert.equal(test[2], render(test[1]));
+  describe('h', () => {
+    tests.forEach(test => {
+      it(test[0], () => {
+        assert.equal(test[2], render(test[1]));
+      });
     });
+  });
+
+  describe('isVNode', () => {
+    it('should evaluate to "true" for a VNode', () =>
+      assert.expect(isVNode(h('div'))));
+
+    it('should evaluate to "false" for non VNodes', () =>
+      [null, undefined, {}, 1].forEach(test => assert.falsey(isVNode(test))));
   });
 });

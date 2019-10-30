@@ -1,6 +1,8 @@
 import { Component, ComponentChildren, ComponentType, VNode } from 'preact';
 import p from 'preact';
 
+declare function isPreactNode(obj: object): boolean;
+
 declare function phy(
   selectorOrComp: string | ComponentType,
   ...kids: ComponentChildren[]
@@ -15,6 +17,7 @@ declare namespace phy {
   let h: typeof phy;
   let Component: typeof p.Component;
   let render: typeof p.render;
+  let isVNode: typeof isPreactNode;
 }
 
 export = phy;
