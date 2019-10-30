@@ -1,6 +1,6 @@
 {
   "name": "phy",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "Phy is a set of minimalist hyperscript helpers for Preact",
   "license": "BSD-3-Clause",
   "main": "lib/phy.js",

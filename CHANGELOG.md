@@ -1,3 +1,9 @@
+### 4.1.0
+
+* export isVNode function - **[@aotarola](https://github.com/aotarola)** [#8](https://github.com/groupon/phy/pull/8)
+  - [`4282d73`](https://github.com/groupon/phy/commit/4282d7308ed59ade9da46e4818323dacfa771f6c) **feat:** export isVNode function
+
+
 ### 4.0.1
 
 * add type checking & declarations - **[@dbushong](https://github.com/dbushong)** [#7](https://github.com/groupon/phy/pull/7)
