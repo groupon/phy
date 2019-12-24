@@ -28,6 +28,25 @@ class SomeComponent extends Component {
 module.exports = SomeComponent;
 ```
 
+You can create a Fragment tersely by passing only one argument: an
+array of other nodes or strings:
+
+```js
+const frag = h([
+  h('div', 'one'),
+  h('div', 'two'),
+  'three'
+]);
+
+// is equivalent to:
+
+const { Fragment } = require('preact');
+const frag = h(Fragment, [
+  h('div', 'one'),
+  h('div', 'two'),
+  'three'
+]);
+
 ## Optional Tag Helpers
 
 At the cost of a modestly larger import and slight function call overhead,

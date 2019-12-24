@@ -3,6 +3,7 @@ import p from 'preact';
 
 declare function isPreactNode(obj: object): boolean;
 
+declare function phy(fragments: (string | ComponentType)[]): VNode;
 declare function phy(
   selectorOrComp: string | ComponentType,
   ...kids: ComponentChildren[]

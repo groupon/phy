@@ -93,6 +93,11 @@ const tests = [
     h('litter-box', {}, [h(Fragment, {}, ['kitten', h('toy', 'mouse')])]),
     '<litter-box>kitten<toy>mouse</toy></litter-box>',
   ],
+  [
+    'Fragment terse usage',
+    h(['kitten', h('toy', 'mouse')]),
+    'kitten<toy>mouse</toy>',
+  ],
 ];
 
 describe('phy', () => {
@@ -101,6 +106,17 @@ describe('phy', () => {
       it(test[0], () => {
         assert.equal(test[2], render(test[1]));
       });
+    });
+
+    it('throws on surplus fragment args', () => {
+      assert.include(
+        'Fragment mode',
+        assert.throws(() => h(['a', 'b'], { some: 'attr' })).message
+      );
+      assert.include(
+        'Fragment mode',
+        assert.throws(() => h(['a', 'b'], undefined, 'kid')).message
+      );
     });
   });
 
