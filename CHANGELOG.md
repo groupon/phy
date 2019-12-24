@@ -1,3 +1,9 @@
+### 4.2.0
+
+* terse Fragment syntax - **[@dbushong](https://github.com/dbushong)** [#9](https://github.com/groupon/phy/pull/9)
+  - [`659f4e0`](https://github.com/groupon/phy/commit/659f4e0ddcf21710b1797ab823a1187c744c8d2d) **feat:** terse Fragment syntax
+
+
 ### 4.1.0
 
 * export isVNode function - **[@aotarola](https://github.com/aotarola)** [#8](https://github.com/groupon/phy/pull/8)
