@@ -1,3 +1,9 @@
+### 4.2.1
+
+* chore(deps): bump acorn from 7.1.0 to 7.1.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#11](https://github.com/groupon/phy/pull/11)
+  - [`52be1e4`](https://github.com/groupon/phy/commit/52be1e428b5916ea43e551e6071d4018712c6772) **chore:** bump acorn from 7.1.0 to 7.1.1 - see: [7](- [Commits](https://github.com/acornjs/acorn/compare/7)
+
+
 ### 4.2.0
 
 * terse Fragment syntax - **[@dbushong](https://github.com/dbushong)** [#9](https://github.com/groupon/phy/pull/9)
