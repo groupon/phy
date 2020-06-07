@@ -46,6 +46,7 @@ const frag = h(Fragment, [
   h('div', 'two'),
   'three'
 ]);
+```
 
 ## Optional Tag Helpers
 
