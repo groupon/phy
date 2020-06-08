@@ -1,3 +1,9 @@
+### 4.2.2
+
+* docs: fix markdown code example - **[@aaarichter](https://github.com/aaarichter)** [#12](https://github.com/groupon/phy/pull/12)
+  - [`572cbf4`](https://github.com/groupon/phy/commit/572cbf470b86798ee21bbc51c79db0905f196334) **docs:** fix markdown code example
+
+
 ### 4.2.1
 
 * chore(deps): bump acorn from 7.1.0 to 7.1.1 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#11](https://github.com/groupon/phy/pull/11)
