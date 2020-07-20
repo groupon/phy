@@ -1,3 +1,9 @@
+### 4.2.3
+
+* chore(deps): bump lodash from 4.17.15 to 4.17.19 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#13](https://github.com/groupon/phy/pull/13)
+  - [`ecdfa18`](https://github.com/groupon/phy/commit/ecdfa18b9ac1952c4eeacb0fb91fc4acba4bb96e) **chore:** bump lodash from 4.17.15 to 4.17.19 - see: [4](- [Commits](https://github.com/lodash/lodash/compare/4)
+
+
 ### 4.2.2
 
 * docs: fix markdown code example - **[@aaarichter](https://github.com/aaarichter)** [#12](https://github.com/groupon/phy/pull/12)
