@@ -1,3 +1,11 @@
+### 4.2.4
+
+* chore(deps): bump handlebars from 4.4.2 to 4.7.6 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#14](https://github.com/groupon/phy/pull/14)
+  - [`e9cdb06`](https://github.com/groupon/phy/commit/e9cdb06e73e4ec5856dcf5b66c4265e985131143) **chore:** bump handlebars from 4.4.2 to 4.7.6 - see: [v4](- [Commits](https://github.com/wycats/handlebars.js/compare/v4)
+* chore(deps): bump ini from 1.3.5 to 1.3.7 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#15](https://github.com/groupon/phy/pull/15)
+  - [`9fd47d0`](https://github.com/groupon/phy/commit/9fd47d02e3a196f900a64bb8feb148c7eb2ff5ea) **chore:** bump ini from 1.3.5 to 1.3.7 - see: [v1](- [Commits](https://github.com/isaacs/ini/compare/v1)
+
+
 ### 4.2.3
 
 * chore(deps): bump lodash from 4.17.15 to 4.17.19 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#13](https://github.com/groupon/phy/pull/13)
