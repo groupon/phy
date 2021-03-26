@@ -1,6 +1,6 @@
 'use strict';
 
-const assert = require('assertive');
+const assert = require('assert');
 const render = require('preact-render-to-string');
 
 const cjsTags = require('../tags');
@@ -56,7 +56,7 @@ describe('tags helper', () => {
     describe(type, () => {
       tests[type].forEach(test => {
         it(test[0], () => {
-          assert.equal(test[2], render(test[1]));
+          assert.strictEqual(render(test[1]), test[2]);
         });
       });
     });
@@ -64,10 +64,7 @@ describe('tags helper', () => {
 
   describe('validation', () => {
     it("tries to make sure you aren't passing bare string kids", () => {
-      const err = assert.throws(() => {
-        p('kittens');
-      });
-      assert.include('string children', err.message);
+      assert.throws(() => p('kittens'), 'string children');
     });
   });
 });
