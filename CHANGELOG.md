@@ -1,3 +1,10 @@
+### v4.2.5 (2021-03-26)
+
+#### 🏡 Internal
+
+* [#16](https://github.com/groupon/phy/pull/16) chore: switch to main & update packages ([@aaarichter](https://github.com/aaarichter)) 
+
+
 ### 4.2.4
 
 * chore(deps): bump handlebars from 4.4.2 to 4.7.6 - **[@dependabot[bot]](https://github.com/apps/dependabot)** [#14](https://github.com/groupon/phy/pull/14)

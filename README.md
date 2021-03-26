@@ -1,3 +1,6 @@
+[![nlm-github](https://img.shields.io/badge/github-groupon%2Fphy%2Fissues-F4D03F?logo=github&logoColor=white)](https://github.com/groupon/phy/issues)
+![nlm-node](https://img.shields.io/badge/node-%3E%3D8.3-blue?logo=node.js&logoColor=white)
+![nlm-version](https://img.shields.io/badge/version-4.2.5-blue?logo=version&logoColor=white)
 # `phy`
 
 Minimal hyperscript helpers for Preact.
