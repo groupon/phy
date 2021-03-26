@@ -1,6 +1,6 @@
 'use strict';
 
-const assert = require('assertive');
+const assert = require('assert');
 
 const { h, isVNode } = require('../');
 const { Fragment } = require('preact');
@@ -104,27 +104,21 @@ describe('phy', () => {
   describe('h', () => {
     tests.forEach(test => {
       it(test[0], () => {
-        assert.equal(test[2], render(test[1]));
+        assert.strictEqual(render(test[1]), test[2]);
       });
     });
 
     it('throws on surplus fragment args', () => {
-      assert.include(
-        'Fragment mode',
-        assert.throws(() => h(['a', 'b'], { some: 'attr' })).message
-      );
-      assert.include(
-        'Fragment mode',
-        assert.throws(() => h(['a', 'b'], undefined, 'kid')).message
-      );
+      assert.throws(() => h(['a', 'b'], { some: 'attr' }), 'Fragment mode');
+      assert.throws(() => h(['a', 'b'], undefined, 'kid'), 'Fragment mode');
     });
   });
 
   describe('isVNode', () => {
     it('should evaluate to "true" for a VNode', () =>
-      assert.expect(isVNode(h('div'))));
+      assert.ok(isVNode(h('div'))));
 
     it('should evaluate to "false" for non VNodes', () =>
-      [null, undefined, {}, 1].forEach(test => assert.falsey(isVNode(test))));
+      [null, undefined, {}, 1].forEach(test => assert.ok(!isVNode(test))));
   });
 });
