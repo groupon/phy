@@ -1,3 +1,10 @@
+### v4.2.6 (2021-03-27)
+
+#### 🏡 Internal
+
+* [#17](https://github.com/groupon/phy/pull/17) chore: upgrade preact libraries ([@anil-alt](https://github.com/anil-alt)) 
+
+
 ### v4.2.5 (2021-03-26)
 
 #### 🏡 Internal
