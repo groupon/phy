@@ -42,6 +42,7 @@ const tests = [
     '<div id="baz" class="garply quux foo bar"></div>',
   ],
   ['tag, string kids', h('div', 'kittens'), '<div>kittens</div>'],
+  ['tag, falsey kids', h('div', 0), '<div>0</div>'],
   [
     'tag, multiple string kids',
     h('div', 'kittens', 'puppies'),
