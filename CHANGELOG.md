@@ -1,3 +1,11 @@
+### v4.2.7 (2022-07-26)
+<a id="v4.2.7"></a>
+#### 🏡 Internal
+
+* [#18](https://github.com/groupon/phy/pull/18) ci(actions): add GitHub actions ([@aaarichter](https://github.com/aaarichter))
+* [#25](https://github.com/groupon/phy/pull/25) accept falsey kids ([@dbushong](https://github.com/dbushong))
+
+
 ### v4.2.6 (2021-03-27)
 
 #### 🏡 Internal
